@@ -40,7 +40,7 @@ jobs:
 workflows:
   my_workflow:
     jobs:
-      - build:
+      - build
       - test:
           requires:
            - build
